@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+
+
+.main-section{
+    width: 70%;
+    height: 600px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inner-div{
+    height: 430px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    margin-bottom: 300px;
+}
+
+.main-text{
+    color: #2F2E41;
+    position: static;
+    width: 489px;
+    height: 264px;
+    left: 0px;
+    top: 0px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 86px;
+    line-height: 88px;
+    letter-spacing: -1px;
+}
+.p1{
+    position: static;
+    width: 489px;
+    height: 102px;
+    left: calc(50% - 489px/2);
+    top: calc(50% - 102px/2 + 106.5px);
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    color: #9893A3;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 30px 0px;
+}
+
+.getstartedtwo{
+    color: white;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 30px;
+
+
+    background: #6C63FF;
+
+    border: 1px solid #6C63FF;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.girlphoto{
+    width: 500px;
+    height: 430px;
+}
